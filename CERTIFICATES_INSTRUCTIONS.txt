@@ -1,0 +1,80 @@
+==========================================
+تعليمات إضافة صور الشهادات
+Certificates Images Instructions
+==========================================
+
+تم إعداد الكود بالكامل لعرض صور الشهادات في قسم "الشهادات والإنجازات".
+
+The code is fully set up to display certificate images in the "Certificates & Achievements" section.
+
+==========================================
+الخطوات المطلوبة / Required Steps:
+==========================================
+
+1. ضع صور الشهادات في نفس مجلد index.html
+   Place certificate images in the same folder as index.html
+
+2. أسماء الملفات المطلوبة / Required File Names:
+   
+   - certificate-1.jpg  → شهادة الخبرة (شركة الفؤاد)
+                      → Experience Certificate (Al-Fouad Company)
+   
+   - certificate-2.jpg → شهادة التقدير (جمعية الفسطاط الجديدة)
+                      → Appreciation Certificate (Al-Fustat New Society)
+   
+   - certificate-3.jpg → شهادة التقدير (شركة العثيم)
+                      → Appreciation Certificate (Al-Othaim Company)
+
+3. الصيغ المدعومة / Supported Formats:
+   - .jpg
+   - .jpeg
+   - .png
+
+==========================================
+المميزات المتاحة / Available Features:
+==========================================
+
+✓ الصور ستظهر تلقائياً تحت عنوان كل شهادة
+  Images will automatically appear under each certificate title
+
+✓ عند النقر على الصورة، ستفتح في نافذة تكبير (Lightbox)
+  Clicking on the image will open it in a lightbox modal
+
+✓ يمكن إغلاق النافذة بالضغط على:
+  You can close the modal by:
+  - زر X في الأعلى
+    X button at the top
+  - الضغط خارج الصورة
+    Clicking outside the image
+  - مفتاح Escape
+    Pressing Escape key
+
+✓ تصميم متجاوب مع تأثيرات hover جميلة
+  Responsive design with beautiful hover effects
+
+✓ إذا لم تكن الصورة موجودة، ستختفي تلقائياً
+  If the image is not found, it will automatically hide
+
+==========================================
+ملاحظات مهمة / Important Notes:
+==========================================
+
+- تأكد من أن أسماء الملفات تطابق تماماً (حساسة لحالة الأحرف)
+  Make sure file names match exactly (case-sensitive)
+
+- الصور ستظهر تلقائياً بعد وضعها في المجلد
+  Images will appear automatically after placing them in the folder
+
+- يمكنك تغيير أسماء الملفات في index.html إذا أردت
+  You can change file names in index.html if needed
+
+==========================================
+الموقع الحالي / Current Location:
+==========================================
+
+C:\Users\DELL\OneDrive\Desktop\mostafa\
+
+ضع الصور هنا / Place images here
+
+==========================================
+

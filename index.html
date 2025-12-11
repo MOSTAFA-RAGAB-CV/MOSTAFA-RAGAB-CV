@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="حافظة أعمال مصطفى رجب - محاسب محترف وإدارة أعمال">
+    <meta name="author" content="Mostafa Ragab">
+    <title data-ar="مصطفى رجب | محاسب | تطوير أعمال" data-en="Mostafa Ragab | Accountant | Business Developer">Mostafa Ragab | Accountant | Business Developer</title>
+    <meta property="og:title" content="Mostafa Ragab | Accountant | Business Developer">
+    <meta property="og:description" content="حافظة أعمال مصطفى رجب، محاسب محترف وإدارة أعمال. خبرة متنوعة وشهادات معتمدة.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ar_AR">
+    <meta property="og:image" content="PROFILE.jpeg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mostafa Ragab | Accountant | Business Developer">
+    <meta name="twitter:description" content="حافظة أعمال مصطفى رجب، محاسب محترف وإدارة أعمال.">
+    <meta name="twitter:image" content="PROFILE.jpeg">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>Mostafa Ragab</h2>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+                <li><a href="#experience" class="nav-link" data-ar="الخبرة" data-en="Experience">الخبرة</a></li>
+                <li><a href="#education" class="nav-link" data-ar="التعليم" data-en="Education">التعليم</a></li>
+                <li><a href="#skills" class="nav-link" data-ar="المهارات" data-en="Skills">المهارات</a></li>
+                <li><a href="#achievements" class="nav-link" data-ar="الإنجازات" data-en="Achievements">الإنجازات</a></li>
+                <li><a href="#contact" class="nav-link" data-ar="التواصل" data-en="Contact">التواصل</a></li>
+                <li><a href="#contact" class="nav-cta" data-ar="وظفني" data-en="Hire Me">وظفني</a></li>
+                <li><button id="langToggle" class="lang-toggle" title="Toggle Language">العربية</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Mostafa Ragab</h1>
+                    <h2 class="hero-subtitle">Accountant | Business Developer</h2>
+                    <div class="headline-badge"><span data-ar="متاح للعمل" data-en="Available for Work">متاح للعمل</span></div>
+                    <p class="hero-description" data-ar="محترف ديناميكي وموجه نحو النتائج، حاصل على بكالوريوس التجارة في إدارة الأعمال من جامعة بنها. لدي سجل حافل في الإدارة المالية، وخدمة العملاء، والإدارة التنفيذية عبر وكالات مختلفة. بارع في الإشراف على الفرق، وإدارة علاقات العملاء، وتنفيذ المهام التشغيلية المعقدة بكفاءة. أمتلك قدرات قوية في حل المشكلات، ومهارات اتصال استثنائية، والتزام بتحقيق نتائج ممتازة." data-en="Dynamic and result-oriented professional with a Bachelor's degree in Business Administration from Benha University. Strong track record in financial management, customer service, and executive administration across various organizations. Excellent in team supervision, customer relationship management, and executing complex operational tasks efficiently. Strong problem-solving abilities, exceptional communication skills, and commitment to achieving outstanding results.">
+                        محترف ديناميكي وموجه نحو النتائج، حاصل على بكالوريوس التجارة في إدارة الأعمال من جامعة بنها. 
+                        لدي سجل حافل في الإدارة المالية، وخدمة العملاء، والإدارة التنفيذية عبر وكالات مختلفة. 
+                        بارع في الإشراف على الفرق، وإدارة علاقات العملاء، وتنفيذ المهام التشغيلية المعقدة بكفاءة. 
+                        أمتلك قدرات قوية في حل المشكلات، ومهارات اتصال استثنائية، والتزام بتحقيق نتائج ممتازة.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary" data-ar="تواصل معي" data-en="Contact Me">
+                            <i class="fas fa-envelope"></i> <span data-ar="تواصل معي" data-en="Contact Me">Contact Me</span>
+                        </a>
+                        <a href="#experience" class="btn btn-secondary" data-ar="الخبرة العملية" data-en="Work Experience">
+                            <i class="fas fa-briefcase"></i> <span data-ar="الخبرة العملية" data-en="Work Experience">Work Experience</span>
+                        </a>
+                        <a href="Mostafa-Ragab-CV-2025.pdf" class="btn btn-cv" target="_blank" rel="noopener" data-ar="السيرة الذاتية" data-en="Download CV">
+                            <i class="fas fa-file-alt"></i> <span data-ar="السيرة الذاتية" data-en="Download CV">Download CV</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <img src="PROFILE.jpeg" alt="مصطفى رجب - Mostafa Ragab" class="profile-photo">
+                        </div>
+                        <div class="profile-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-briefcase"></i>
+                                <span data-ar="خبرة متنوعة" data-en="Diverse Experience">خبرة متنوعة</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span data-ar="بكالوريوس تجارة" data-en="Commerce Degree">بكالوريوس تجارة</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-certificate"></i>
+                                <span data-ar="شهادات معتمدة" data-en="Certifications">شهادات معتمدة</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ar="الخبرة العملية" data-en="Work Experience">الخبرة العملية</h2>
+                <p class="section-subtitle" data-ar="رحلتي المهنية عبر مختلف المجالات" data-en="My professional journey across various fields">رحلتي المهنية عبر مختلف المجالات</p>
+            </div>
+            
+            <div class="timeline">
+                <!-- Current Position -->
+                <div class="timeline-item">
+                    <div class="timeline-marker current">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge" data-ar="حاليًا" data-en="Currently">حاليًا</div>
+                        <h3 class="timeline-title" data-ar="محاسب عام ومدير للمخازن" data-en="General Accountant & Warehouse Manager">محاسب عام ومدير للمخازن</h3>
+                        <h4 class="timeline-company">
+                            <i class="fas fa-building"></i>
+                            <span data-ar="شركة الفؤاد لتجارة الحديد والاستيراد وتشغيل المعادن" data-en="Al-Fouad Iron Trading, Import & Metal Processing Company">شركة الفؤاد لتجارة الحديد والاستيراد وتشغيل المعادن</span>
+                        </h4>
+                        <p class="timeline-period">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span data-ar="حاليًا (PRESENT)" data-en="Present">حاليًا (PRESENT)</span>
+                        </p>
+                        <ul class="timeline-responsibilities">
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span data-ar="مسؤول عن حفظ السجلات المالية وضمان دقة مسك الدفاتر وتقديم رؤى أساسية عن الوضع المالي للشركة" data-en="Responsible for maintaining financial records, ensuring accounting accuracy, and providing key insights into company's financial status">مسؤول عن حفظ السجلات المالية وضمان دقة مسك الدفاتر وتقديم رؤى أساسية عن الوضع المالي للشركة</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span data-ar="يشرف على عمليات التخزين والتوزيع، ويضمن استدامة مستويات المخزون، ومعالجة الطلبات بكفاءة، وسلاسة تشغيل سلسلة التوريد" data-en="Supervises storage and distribution operations, ensures optimal inventory levels, efficiently processes orders, and maintains smooth supply chain operations">يشرف على عمليات التخزين والتوزيع، ويضمن استدامة مستويات المخزون، ومعالجة الطلبات بكفاءة، وسلاسة تشغيل سلسلة التوريد</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span data-ar="تنسيق العمل مع الموردين، وإدارة موظفي المستودعات، وتحسين استخدام مساحة التخزين" data-en="Coordinates with suppliers, manages warehouse staff, and optimizes storage space utilization">تنسيق العمل مع الموردين، وإدارة موظفي المستودعات، وتحسين استخدام مساحة التخزين</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Previous Position 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-cash-register"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title" data-ar="مشرف كاشير - قائد فريق خدمة عملاء" data-en="Cashier Supervisor - Customer Service Team Leader">مشرف كاشير - قائد فريق خدمة عملاء</h3>
+                        <h4 class="timeline-company">
+                            <i class="fas fa-building"></i>
+                            <span data-ar="أسواق العثيم - مصر (شركة متعددة الجنسيات)" data-en="Al-Othaim Markets - Egypt (Multinational Company)">أسواق العثيم - مصر (شركة متعددة الجنسيات)</span>
+                        </h4>
+                        <p class="timeline-period">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>2023 - 2024</span>
+                        </p>
+                        <ul class="timeline-responsibilities">
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span data-ar="إدارة جميع جوانب عمليات الكاشير، بما في ذلك المعاملات المالية، وخدمة العملاء، والإشراف على الموظفين، والامتثال لسياسات الشركة" data-en="Manages all aspects of cashier operations, including financial transactions, customer service, staff supervision, and company policy compliance">إدارة جميع جوانب عمليات الكاشير، بما في ذلك المعاملات المالية، وخدمة العملاء، والإشراف على الموظفين، والامتثال لسياسات الشركة</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span data-ar="إجراء عمليات تدقيق منتظمة للنقد لضمان سلامة النقد (Cash Integrity)" data-en="Conducts regular cash audits to ensure cash integrity and accuracy">إجراء عمليات تدقيق منتظمة للنقد لضمان سلامة النقد (Cash Integrity)</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span data-ar="التحقيق في التباينات وتطبيق الإجراءات التصحيحية، والحفاظ على بيئة عمل آمنة ومرتبة" data-en="Investigates discrepancies, implements corrective actions, and maintains a safe and organized work environment">التحقيق في التباينات وتطبيق الإجراءات التصحيحية، والحفاظ على بيئة عمل آمنة ومرتبة</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span data-ar="تقديم خدمة عملاء متميزة والرد على الاستفسارات المتعلقة بالمدفوعات والمعاملات" data-en="Provides excellent customer service and responds to inquiries related to payments and transactions">تقديم خدمة عملاء متميزة والرد على الاستفسارات المتعلقة بالمدفوعات والمعاملات</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Previous Position 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title" data-ar="وكيل مبيعات" data-en="Sales Agent">وكيل مبيعات</h3>
+                        <h4 class="timeline-company">
+                            <i class="fas fa-building"></i>
+                            <span data-ar="شركات متعددة" data-en="Multiple Companies">شركات متعددة</span>
+                        </h4>
+                        <p class="timeline-period">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span data-ar="خبرة سابقة" data-en="Previous Experience">خبرة سابقة</span>
+                        </p>
+                        <ul class="timeline-responsibilities">
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span data-ar="تطوير وتنفيذ استراتيجيات المبيعات لتحقيق الأهداف المحددة" data-en="Develops and implements sales strategies to achieve defined targets">تطوير وتنفيذ استراتيجيات المبيعات لتحقيق الأهداف المحددة</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span data-ar="بناء علاقات قوية مع العملاء وتقديم خدمة متميزة" data-en="Builds strong customer relationships and provides excellent service">بناء علاقات قوية مع العملاء وتقديم خدمة متميزة</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span data-ar="إجراء مفاوضات فعالة وإتمام الصفقات التجارية" data-en="Conducts effective negotiations and closes business deals">إجراء مفاوضات فعالة وإتمام الصفقات التجارية</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Previous Position 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title" data-ar="مساعد صيدلي" data-en="Pharmacy Assistant">مساعد صيدلي</h3>
+                        <h4 class="timeline-company">
+                            <i class="fas fa-building"></i>
+                            <span data-ar="صيدليات متعددة" data-en="Multiple Pharmacies">صيدليات متعددة</span>
+                        </h4>
+                        <p class="timeline-period">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span data-ar="خبرة سابقة" data-en="Previous Experience">خبرة سابقة</span>
+                        </p>
+                        <ul class="timeline-responsibilities">
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span data-ar="مساعدة الصيادلة في صرف الأدوية وتقديم المشورة للعملاء" data-en="Assists pharmacists in dispensing medications and providing customer advice">مساعدة الصيادلة في صرف الأدوية وتقديم المشورة للعملاء</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span data-ar="إدارة المخزون الدوائي وضمان توفر الأدوية الأساسية" data-en="Manages pharmaceutical inventory and ensures availability of essential medications">إدارة المخزون الدوائي وضمان توفر الأدوية الأساسية</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span data-ar="تطبيق معايير السلامة والجودة في التعامل مع الأدوية" data-en="Applies safety and quality standards in medication handling">تطبيق معايير السلامة والجودة في التعامل مع الأدوية</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ar="التعليم والدورات التدريبية" data-en="Education & Training">التعليم والدورات التدريبية</h2>
+                <p class="section-subtitle" data-ar="المؤهلات الأكاديمية والتطوير المهني" data-en="Academic qualifications and professional development">المؤهلات الأكاديمية والتطوير المهني</p>
+            </div>
+
+            <div class="education-grid">
+                <!-- Degree -->
+                <div class="education-card degree-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="education-title" data-ar="بكالوريوس التجارة في إدارة الأعمال" data-en="Bachelor of Commerce in Business Administration">بكالوريوس التجارة في إدارة الأعمال</h3>
+                    <h4 class="education-institution">
+                        <i class="fas fa-university"></i>
+                        <span data-ar="جامعة بنها" data-en="Benha University">جامعة بنها</span>
+                    </h4>
+                    <p class="education-period">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>2018 - 2021</span>
+                    </p>
+                </div>
+
+                <!-- Courses -->
+                <div class="education-card courses-card">
+                    <div class="education-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3 class="education-title" data-ar="الدورات التدريبية" data-en="Training Courses">الدورات التدريبية</h3>
+                    <ul class="courses-list">
+                        <li>
+                            <i class="fas fa-chart-line"></i>
+                            <span data-ar="المحاسبة المالية (Financial Accounting)" data-en="Financial Accounting">المحاسبة المالية (Financial Accounting)</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-bullhorn"></i>
+                            <span data-ar="مبادئ التسويق (Principles of Marketing)" data-en="Principles of Marketing">مبادئ التسويق (Principles of Marketing)</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-cogs"></i>
+                            <span data-ar="إدارة العمليات (Operations Management)" data-en="Operations Management">إدارة العمليات (Operations Management)</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-users"></i>
+                            <span data-ar="الموارد البشرية (Human Resource)" data-en="Human Resources">الموارد البشرية (Human Resource)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ar="المهارات" data-en="Skills">المهارات</h2>
+                <p class="section-subtitle" data-ar="الكفاءات المهنية والشخصية" data-en="Professional and personal competencies">الكفاءات المهنية والشخصية</p>
+            </div>
+
+            <div class="skills-container">
+                <!-- Technical Skills -->
+                <div class="skills-category">
+                    <h3 class="skills-category-title" data-ar="المهارات الوظيفية والتقنية" data-en="Professional & Technical Skills">
+                        <i class="fas fa-laptop-code"></i>
+                        المهارات الوظيفية والتقنية
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-tag">
+                            <i class="fas fa-calculator"></i>
+                            <span data-ar="المحاسبة المالية ومسك الدفاتر" data-en="Financial Accounting & Bookkeeping">المحاسبة المالية ومسك الدفاتر</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-boxes"></i>
+                            <span data-ar="إدارة المخزون وسلسلة التوريد" data-en="Inventory & Supply Chain Management">إدارة المخزون وسلسلة التوريد</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <span data-ar="إدارة العمليات النقدية والتدقيق النقدي" data-en="Cash Operations & Audit">إدارة العمليات النقدية والتدقيق النقدي</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-file-excel"></i>
+                            <span data-ar="مهارات Microsoft Office" data-en="Microsoft Office Skills">مهارات Microsoft Office</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-first-aid"></i>
+                            <span data-ar="مفاهيم الأدوية والإسعافات الأولية" data-en="Pharmacy & First Aid Concepts">مفاهيم الأدوية والإسعافات الأولية</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-robot"></i>
+                            <span data-ar="متخصص ومحترف في الذكاء الاصطناعي (AI)" data-en="AI Specialist & Professional">AI Specialist & Professional</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skills-category">
+                    <h3 class="skills-category-title" data-ar="المهارات الشخصية" data-en="Soft Skills">
+                        <i class="fas fa-user-friends"></i>
+                        المهارات الشخصية
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-tag soft-skill">
+                            <i class="fas fa-comments"></i>
+                            <span data-ar="التواصل الممتاز" data-en="Excellent Communication">التواصل الممتاز</span>
+                        </div>
+                        <div class="skill-tag soft-skill">
+                            <i class="fas fa-handshake"></i>
+                            <span data-ar="مهارات المبيعات والتفاوض" data-en="Sales & Negotiation Skills">مهارات المبيعات والتفاوض</span>
+                        </div>
+                        <div class="skill-tag soft-skill">
+                            <i class="fas fa-compress-arrows-alt"></i>
+                            <span data-ar="العمل تحت الضغط" data-en="Working Under Pressure">العمل تحت الضغط</span>
+                        </div>
+                        <div class="skill-tag soft-skill">
+                            <i class="fas fa-brain"></i>
+                            <span data-ar="التعلم والتكيف السريع" data-en="Quick Learning & Adaptability">التعلم والتكيف السريع</span>
+                        </div>
+                        <div class="skill-tag soft-skill">
+                            <i class="fas fa-users-cog"></i>
+                            <span data-ar="العمل كعضو فعال في فريق" data-en="Effective Teamwork">العمل كعضو فعال في فريق</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ar="الشهادات والإنجازات" data-en="Certificates & Achievements">الشهادات والإنجازات</h2>
+                <p class="section-subtitle" data-ar="التقديرات والاعترافات المهنية" data-en="Professional recognitions and appreciations">التقديرات والاعترافات المهنية</p>
+            </div>
+
+            <div class="achievements-grid">
+                <!-- Certificate 1 -->
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="achievement-title" data-ar="شهادة الخبرة" data-en="Experience Certificate">شهادة الخبرة</h3>
+                    <div class="achievement-image">
+                        <img src="certificate-1.jpg.png" alt="شهادة الخبرة - Experience Certificate" class="certificate-img" onclick="openImageModal(this.src, this.alt)" onerror="this.style.display='none'">
+                    </div>
+                    <p class="achievement-issuer">
+                        <i class="fas fa-building"></i>
+                        <span data-ar="شركة الفؤاد لتجارة الحديد والاستيراد" data-en="Al-Fouad Iron Trading & Import Company">شركة الفؤاد لتجارة الحديد والاستيراد</span>
+                    </p>
+                    <p class="achievement-description" data-ar="شهادة تؤكد منصب محاسب عام ومدير للمخازن والخبرة المكتسبة في الإدارة المالية وإدارة المخزون" data-en="Certificate confirming position of General Accountant and Warehouse Manager with experience in financial management and inventory management">
+                        شهادة تؤكد منصب محاسب عام ومدير للمخازن والخبرة المكتسبة في الإدارة المالية وإدارة المخزون
+                    </p>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3 class="achievement-title" data-ar="شهادة التقدير" data-en="Appreciation Certificate">شهادة التقدير</h3>
+                    <div class="achievement-image">
+                        <img src="certificate-2.jpg.png" alt="شهادة التقدير - جمعية الفسطاط الجديدة" class="certificate-img" onclick="openImageModal(this.src, this.alt)" onerror="this.style.display='none'">
+                    </div>
+                    <p class="achievement-issuer">
+                        <i class="fas fa-building"></i>
+                        <span data-ar="جمعية الفسطاط الجديدة" data-en="Al-Fustat New Society">جمعية الفسطاط الجديدة</span>
+                    </p>
+                    <p class="achievement-description" data-ar="شهادة تقدير لاجتياز الدورة التدريبية في 'الاستعداد للعمل وخدمة العملاء' بنجاح" data-en="Appreciation certificate for successfully completing the training course in 'Work Readiness and Customer Service'">
+                        شهادة تقدير لاجتياز الدورة التدريبية في "الاستعداد للعمل وخدمة العملاء" بنجاح
+                    </p>
+                </div>
+
+                <!-- Certificate 3 -->
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3 class="achievement-title" data-ar="شهادة التقدير" data-en="Appreciation Certificate">شهادة التقدير</h3>
+                    <div class="achievement-image">
+                        <img src="certificate-3.jpg.png" alt="شهادة التقدير - شركة العثيم" class="certificate-img" onclick="openImageModal(this.src, this.alt)" onerror="this.style.display='none'">
+                    </div>
+                    <p class="achievement-issuer">
+                        <i class="fas fa-building"></i>
+                        <span data-ar="شركة العثيم" data-en="Al-Othaim Company">شركة العثيم</span>
+                    </p>
+                    <p class="achievement-description" data-ar="شهادة تقدير لاجتياز الدورة التدريبية في 'الاستعداد للعمل وخدمة العملاء' والأداء المتميز" data-en="Appreciation certificate for successfully completing the training course in 'Work Readiness and Customer Service' and outstanding performance">
+                        شهادة تقدير لاجتياز الدورة التدريبية في "الاستعداد للعمل وخدمة العملاء" والأداء المتميز
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages & Interests Section -->
+    <section id="languages" class="languages-section">
+        <div class="container">
+            <div class="languages-interests-grid">
+                <!-- Languages -->
+                <div class="info-card">
+                    <div class="info-card-header">
+                        <i class="fas fa-language"></i>
+                        <h3 data-ar="اللغات" data-en="Languages">اللغات</h3>
+                    </div>
+                    <div class="info-card-content">
+                        <div class="language-item">
+                            <div class="language-name">
+                                <i class="fas fa-circle"></i>
+                                <span data-ar="العربية" data-en="Arabic">العربية</span>
+                            </div>
+                            <div class="language-level" data-ar="اللغة الأم" data-en="Native Language">اللغة الأم</div>
+                        </div>
+                        <div class="language-item">
+                            <div class="language-name">
+                                <i class="fas fa-circle"></i>
+                                <span data-ar="الإنجليزية" data-en="English">الإنجليزية</span>
+                            </div>
+                            <div class="language-level" data-ar="إتقان عمل احترافي" data-en="Professional Proficiency">إتقان عمل احترافي</div>
+                        </div>
+                        <div class="language-item">
+                            <div class="language-name">
+                                <i class="fas fa-circle"></i>
+                                <span data-ar="الألمانية" data-en="German">الألمانية</span>
+                            </div>
+                            <div class="language-level" data-ar="أساسي" data-en="Basic">أساسي</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interests -->
+                <div class="info-card">
+                    <div class="info-card-header">
+                        <i class="fas fa-heart"></i>
+                        <h3 data-ar="الاهتمامات" data-en="Interests">الاهتمامات</h3>
+                    </div>
+                    <div class="info-card-content">
+                        <div class="interest-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span data-ar="تعلم مهارات جديدة" data-en="Learning New Skills">تعلم مهارات جديدة</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <span data-ar="علوم الحاسب" data-en="Computer Science">علوم الحاسب</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-video"></i>
+                            <span data-ar="تحرير الفيديو" data-en="Video Editing">تحرير الفيديو</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ar="التواصل" data-en="Contact">التواصل</h2>
+                <p class="section-subtitle" data-ar="دعنا نتواصل ونبني شراكة ناجحة" data-en="Let's connect and build a successful partnership">دعنا نتواصل ونبني شراكة ناجحة</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4 data-ar="الهاتف" data-en="Phone">الهاتف</h4>
+                        <a href="tel:+201028248115">+20 1028248115</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4 data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</h4>
+                        <a href="mailto:morgb1997@gmail.com">morgb1997@gmail.com</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4 data-ar="الموقع" data-en="Location">الموقع</h4>
+                        <p data-ar="القليوبية - مصر" data-en="Alqalubia - Egypt">القليوبية - مصر</p>
+                    </div>
+                </div>
+
+                <div class="contact-cta">
+                    <h3 data-ar="هل لديك مشروع أو فرصة عمل؟" data-en="Do you have a project or job opportunity?">هل لديك مشروع أو فرصة عمل؟</h3>
+                    <p data-ar="أنا متحمس للاستماع إلى أفكارك ومناقشة كيف يمكنني المساهمة في نجاح مؤسستك" data-en="I'm excited to hear your ideas and discuss how I can contribute to your organization's success">أنا متحمس للاستماع إلى أفكارك ومناقشة كيف يمكنني المساهمة في نجاح مؤسستك</p>
+                    <div class="cta-buttons">
+                        <a href="mailto:morgb1997@gmail.com" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            <span data-ar="أرسل رسالة" data-en="Send Message">أرسل رسالة</span>
+                        </a>
+                        <a href="tel:+201028248115" class="btn btn-secondary">
+                            <i class="fas fa-phone"></i>
+                            <span data-ar="اتصل الآن" data-en="Call Now">اتصل الآن</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3 data-ar="مصطفى رجب" data-en="Mostafa Ragab">مصطفى رجب</h3>
+                    <p data-ar="محاسب محترف | إدارة الأعمال" data-en="Professional Accountant | Business Management">محاسب محترف | إدارة الأعمال</p>
+                </div>
+                
+                <!-- PDF Downloads Section -->
+                <div class="footer-pdf">
+                    <h4 data-ar="تحميل السيرة الذاتية" data-en="Download CV">تحميل السيرة الذاتية</h4>
+                    <div class="pdf-buttons">
+                        <a href="Mostafa-Ragab-CV-2025.pdf" download="Mostafa-Ragab-CV-2025.pdf" class="pdf-btn" title="Download PDF" id="downloadPdfBtn">
+                            <i class="fas fa-download"></i> <span data-ar="تحميل PDF" data-en="Download PDF">Download PDF</span>
+                        </a>
+                        <a href="Mostafa-Ragab-CV-2025.pdf" target="_blank" rel="noopener noreferrer" class="pdf-btn view-btn" title="View PDF" id="viewPdfBtn">
+                            <i class="fas fa-eye"></i> <span data-ar="عرض" data-en="View">View</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+                    <a href="#experience" data-ar="الخبرة" data-en="Experience">الخبرة</a>
+                    <a href="#education" data-ar="التعليم" data-en="Education">التعليم</a>
+                    <a href="#skills" data-ar="المهارات" data-en="Skills">المهارات</a>
+                    <a href="#languages" data-ar="اللغات" data-en="Languages">اللغات</a>
+                    <a href="#contact" data-ar="التواصل" data-en="Contact">التواصل</a>
+                </div>
+                <div class="footer-social">
+                    <a href="mailto:morgb1997@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+201028248115" aria-label="Phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="https://wa.me/201028248115" target="_blank" rel="noopener" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 <span data-ar="مصطفى رجب" data-en="Mostafa Ragab">مصطفى رجب</span>. <span data-ar="جميع الحقوق محفوظة" data-en="All rights reserved">جميع الحقوق محفوظة</span>.</p>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- Image Modal for Certificate Images -->
+    <div id="imageModal" class="image-modal">
+        <span class="image-modal-close" onclick="closeImageModal()">&times;</span>
+        <img class="image-modal-content" id="modalImage">
+        <div class="image-modal-caption" id="modalCaption"></div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div class="quick-contact" id="quickContact">
+        <a href="https://wa.me/201028248115" target="_blank" rel="noopener" class="qc-btn qc-whatsapp" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="mailto:morgb1997@gmail.com" class="qc-btn qc-email" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
